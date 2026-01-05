@@ -36,13 +36,8 @@ const Hero = () => {
         </h1>
         
         {/* Scroll Indicator */}
-        <div className="absolute right-14 -top-40 flex flex-col items-center gap-4 opacity-70 lg:flex">
-            <div className="text-[10px] uppercase font-bold tracking-[0.25rem] text-white/80">
-                Scroll
-            </div>
-            <div className="relative w-5 h-10 border-2 border-white/40 rounded-full flex justify-center">
-                <div className="w-1 h-2 bg-white rounded-full mt-2 animate-bounce" />
-            </div>
+        <div className="absolute right-14 -top-40 text-[10px] uppercase font-bold tracking-[0.2rem] opacity-60 hidden lg:block">
+            (Scroll for more)
         </div>
     </div>
   </section>
