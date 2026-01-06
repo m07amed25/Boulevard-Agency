@@ -21,11 +21,11 @@ const Hero = () => {
                 Design studio that not only creates digital products but also experiences.
             </h2>
             {/* CTA Button */}
-            <button className="mt-12 p-3 px-6 flex items-center gap-4 tracking-tight cursor-pointer rounded-full bg-gray-400 text-white/90 font-semibold transition-all duration-300 hover:scale-105">
+            <button className="mt-12 p-3 px-6 flex items-center gap-4 tracking-tight cursor-pointer rounded-full bg-prime-accent text-black font-semibold transition-all duration-300 hover:scale-105">
                 let's Collaborate 
-                {/* <div className="size-10 bg-zinc-900 rounded-full center-item"> */}
-                    <ArrowRight className="text-white/90" size={20} />
-                {/* </div> */}
+                <div className="size-10 bg-zinc-900 rounded-full center-item">
+                    <ArrowRight className="text-prime-accent" size={20} />
+                </div>
             </button>
         </div>
     </div>

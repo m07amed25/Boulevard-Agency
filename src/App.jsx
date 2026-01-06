@@ -1,3 +1,4 @@
+import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -9,10 +10,11 @@ const App = () => {
     {/* Main */}
     <main className="max-w-8xl mx-auto" id="main-content">
       <Hero />
+      <About />
     </main>
     {/* Footer */}
     <Footer />
-  </div>;
+  </div>
 };
 
 export default App;
