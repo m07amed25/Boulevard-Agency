@@ -76,6 +76,17 @@ const About = () => {
             </div>
         </div>
         {/* Bottom Bar */}
+        <div className="pt-8 border-t border-zinc-100 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+            <p className="text-xs font-medium text-zinc-400 uppercase tracking-widest">
+                (About - 01)
+            </p>
+            <p className="text-zinc-500 font-medium max-w-sm text-sm">
+                We help you to shape your ideas into visuals that resonate, disrupt,and last.
+            </p>
+            <a href="#contact" className="text-zinc-900 font-bold border-b-2 border-zinc-900 pb-1 hover:text-blue-600 hover:border-blue-600 transition-all cursor-pointer">
+                Book a Call Now
+            </a>
+        </div>
       </div>
     </section>
   )
